@@ -1,5 +1,20 @@
+.layout-center{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-template-rows: 5% auto;
+    grid-template-areas: "bar bar"
+    "menu area";
+}
 
+.toolbar{
+    grid-area: bar;
+}
 
-.container{
-    display: flex;
+.menu{
+    grid-area: menu;
+}
+
+.area{
+    grid-area: area;
 }
